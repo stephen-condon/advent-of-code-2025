@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"strconv"
+
+	"github.com/stephen-condon/advent-of-code-2025/utilities"
 )
 
 func main() {
@@ -16,7 +18,7 @@ func main() {
 }
 
 func executePartOne(filename string) {
-	input := LoadInput(filename)
+	input := utilities.LoadInput(filename)
 	position := 50
 	numZeroes := 0
 
@@ -39,7 +41,7 @@ func executePartOne(filename string) {
 }
 
 func executePartTwo(filename string) {
-	input := LoadInput(filename)
+	input := utilities.LoadInput(filename)
 	position := 50
 	numZeroes := 0
 
