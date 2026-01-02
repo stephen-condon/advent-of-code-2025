@@ -33,10 +33,6 @@ func executePartOne(filename string) {
 	fmt.Printf("%s: %d\n", filename, totalSum)
 }
 
-// implement part two:
-// the difference in part two is tht instead of using 2 digits, we will be using 12
-// do not modify any code used in part one
-
 func executePartTwo(filename string) {
 	input := utilities.LoadInput(filename)
 	if len(input) == 0 {
