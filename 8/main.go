@@ -95,14 +95,6 @@ func executePartOne(filename string, connections int) {
 	fmt.Printf("%s: %d\n", filename, result)
 }
 
-/*
-	Implement part two without modifying any code used in part one.
-
-	We need to keep connecting junction boxes together until they're all in one large circuit.
-
-	Continuing the example (in example.txt), the first connection which causes all of the junction boxes to form a single circuit is between the junction boxes at 216,146,977 and 117,168,530. We need to know the value from multiplying the X coordinates of those two junction boxes (216 and 117), which gets 25272 for the example input.
-*/
-
 func executePartTwo(filename string) {
 	input := utilities.LoadInput(filename)
 	if len(input) == 0 {
